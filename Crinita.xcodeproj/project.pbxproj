@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E335B7441AC8B2A9008FC5D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B7431AC8B2A9008FC5D6 /* AppDelegate.swift */; };
+		E335B7461AC8B2A9008FC5D6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B7451AC8B2A9008FC5D6 /* FirstViewController.swift */; };
+		E335B7481AC8B2A9008FC5D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B7471AC8B2A9008FC5D6 /* SecondViewController.swift */; };
+		E335B74B1AC8B2A9008FC5D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E335B7491AC8B2A9008FC5D6 /* Main.storyboard */; };
+		E335B74D1AC8B2A9008FC5D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E335B74C1AC8B2A9008FC5D6 /* Images.xcassets */; };
+		E335B7501AC8B2A9008FC5D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E335B74E1AC8B2A9008FC5D6 /* LaunchScreen.xib */; };
+		E335B75C1AC8B2A9008FC5D6 /* CrinitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B75B1AC8B2A9008FC5D6 /* CrinitaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E335B7561AC8B2A9008FC5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E335B7361AC8B2A9008FC5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E335B73D1AC8B2A9008FC5D6;
+			remoteInfo = Crinita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E335B73E1AC8B2A9008FC5D6 /* Crinita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crinita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E335B7421AC8B2A9008FC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E335B7431AC8B2A9008FC5D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E335B7451AC8B2A9008FC5D6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E335B7471AC8B2A9008FC5D6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E335B74A1AC8B2A9008FC5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E335B74C1AC8B2A9008FC5D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E335B74F1AC8B2A9008FC5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E335B7551AC8B2A9008FC5D6 /* CrinitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrinitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E335B75A1AC8B2A9008FC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E335B75B1AC8B2A9008FC5D6 /* CrinitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrinitaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E335B73B1AC8B2A9008FC5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E335B7521AC8B2A9008FC5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E335B7351AC8B2A9008FC5D6 = {
+			isa = PBXGroup;
+			children = (
+				E335B7401AC8B2A9008FC5D6 /* Crinita */,
+				E335B7581AC8B2A9008FC5D6 /* CrinitaTests */,
+				E335B73F1AC8B2A9008FC5D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E335B73F1AC8B2A9008FC5D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E335B73E1AC8B2A9008FC5D6 /* Crinita.app */,
+				E335B7551AC8B2A9008FC5D6 /* CrinitaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E335B7401AC8B2A9008FC5D6 /* Crinita */ = {
+			isa = PBXGroup;
+			children = (
+				E335B7431AC8B2A9008FC5D6 /* AppDelegate.swift */,
+				E335B7451AC8B2A9008FC5D6 /* FirstViewController.swift */,
+				E335B7471AC8B2A9008FC5D6 /* SecondViewController.swift */,
+				E335B7491AC8B2A9008FC5D6 /* Main.storyboard */,
+				E335B74C1AC8B2A9008FC5D6 /* Images.xcassets */,
+				E335B74E1AC8B2A9008FC5D6 /* LaunchScreen.xib */,
+				E335B7411AC8B2A9008FC5D6 /* Supporting Files */,
+			);
+			path = Crinita;
+			sourceTree = "<group>";
+		};
+		E335B7411AC8B2A9008FC5D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E335B7421AC8B2A9008FC5D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E335B7581AC8B2A9008FC5D6 /* CrinitaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E335B75B1AC8B2A9008FC5D6 /* CrinitaTests.swift */,
+				E335B7591AC8B2A9008FC5D6 /* Supporting Files */,
+			);
+			path = CrinitaTests;
+			sourceTree = "<group>";
+		};
+		E335B7591AC8B2A9008FC5D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E335B75A1AC8B2A9008FC5D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E335B73D1AC8B2A9008FC5D6 /* Crinita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E335B75F1AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "Crinita" */;
+			buildPhases = (
+				E335B73A1AC8B2A9008FC5D6 /* Sources */,
+				E335B73B1AC8B2A9008FC5D6 /* Frameworks */,
+				E335B73C1AC8B2A9008FC5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crinita;
+			productName = Crinita;
+			productReference = E335B73E1AC8B2A9008FC5D6 /* Crinita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E335B7541AC8B2A9008FC5D6 /* CrinitaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E335B7621AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "CrinitaTests" */;
+			buildPhases = (
+				E335B7511AC8B2A9008FC5D6 /* Sources */,
+				E335B7521AC8B2A9008FC5D6 /* Frameworks */,
+				E335B7531AC8B2A9008FC5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E335B7571AC8B2A9008FC5D6 /* PBXTargetDependency */,
+			);
+			name = CrinitaTests;
+			productName = CrinitaTests;
+			productReference = E335B7551AC8B2A9008FC5D6 /* CrinitaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E335B7361AC8B2A9008FC5D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Spiranca;
+				TargetAttributes = {
+					E335B73D1AC8B2A9008FC5D6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E335B7541AC8B2A9008FC5D6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E335B73D1AC8B2A9008FC5D6;
+					};
+				};
+			};
+			buildConfigurationList = E335B7391AC8B2A9008FC5D6 /* Build configuration list for PBXProject "Crinita" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E335B7351AC8B2A9008FC5D6;
+			productRefGroup = E335B73F1AC8B2A9008FC5D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E335B73D1AC8B2A9008FC5D6 /* Crinita */,
+				E335B7541AC8B2A9008FC5D6 /* CrinitaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E335B73C1AC8B2A9008FC5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E335B74B1AC8B2A9008FC5D6 /* Main.storyboard in Resources */,
+				E335B7501AC8B2A9008FC5D6 /* LaunchScreen.xib in Resources */,
+				E335B74D1AC8B2A9008FC5D6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E335B7531AC8B2A9008FC5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E335B73A1AC8B2A9008FC5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E335B7481AC8B2A9008FC5D6 /* SecondViewController.swift in Sources */,
+				E335B7441AC8B2A9008FC5D6 /* AppDelegate.swift in Sources */,
+				E335B7461AC8B2A9008FC5D6 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E335B7511AC8B2A9008FC5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E335B75C1AC8B2A9008FC5D6 /* CrinitaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E335B7571AC8B2A9008FC5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E335B73D1AC8B2A9008FC5D6 /* Crinita */;
+			targetProxy = E335B7561AC8B2A9008FC5D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E335B7491AC8B2A9008FC5D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E335B74A1AC8B2A9008FC5D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E335B74E1AC8B2A9008FC5D6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E335B74F1AC8B2A9008FC5D6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E335B75D1AC8B2A9008FC5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E335B75E1AC8B2A9008FC5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E335B7601AC8B2A9008FC5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Crinita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E335B7611AC8B2A9008FC5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Crinita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E335B7631AC8B2A9008FC5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrinitaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crinita.app/Crinita";
+			};
+			name = Debug;
+		};
+		E335B7641AC8B2A9008FC5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrinitaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crinita.app/Crinita";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E335B7391AC8B2A9008FC5D6 /* Build configuration list for PBXProject "Crinita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E335B75D1AC8B2A9008FC5D6 /* Debug */,
+				E335B75E1AC8B2A9008FC5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E335B75F1AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "Crinita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E335B7601AC8B2A9008FC5D6 /* Debug */,
+				E335B7611AC8B2A9008FC5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E335B7621AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "CrinitaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E335B7631AC8B2A9008FC5D6 /* Debug */,
+				E335B7641AC8B2A9008FC5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E335B7361AC8B2A9008FC5D6 /* Project object */;
+}
