@@ -1,0 +1,15 @@
+PODS:
+  - Hakuba (1.0.2)
+  - Realm (0.91.1):
+    - Realm/Headers (= 0.91.1)
+  - Realm/Headers (0.91.1)
+
+DEPENDENCIES:
+  - Hakuba
+  - Realm
+
+SPEC CHECKSUMS:
+  Hakuba: fd25cc7864543845a79f282a0d0b428d480a172a
+  Realm: b9c1fd9defa26aa7276ce938a8df52ec81f24528
+
+COCOAPODS: 0.36.3
