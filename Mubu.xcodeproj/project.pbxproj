@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53ACA5E77CA3474215B1872 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4F3C741F32897958795722 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E30B0CBC1AD516260010685C /* BlackHole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B0CBB1AD516260010685C /* BlackHole.swift */; };
+		E30B0CBE1AD5169E0010685C /* FlareStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30B0CBD1AD5169E0010685C /* FlareStar.swift */; };
 		E335B7441AC8B2A9008FC5D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B7431AC8B2A9008FC5D6 /* AppDelegate.swift */; };
-		E335B7461AC8B2A9008FC5D6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B7451AC8B2A9008FC5D6 /* FirstViewController.swift */; };
-		E335B7481AC8B2A9008FC5D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B7471AC8B2A9008FC5D6 /* SecondViewController.swift */; };
+		E335B7461AC8B2A9008FC5D6 /* BlackHolesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B7451AC8B2A9008FC5D6 /* BlackHolesController.swift */; };
+		E335B7481AC8B2A9008FC5D6 /* FlareStarsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B7471AC8B2A9008FC5D6 /* FlareStarsController.swift */; };
 		E335B74B1AC8B2A9008FC5D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E335B7491AC8B2A9008FC5D6 /* Main.storyboard */; };
 		E335B74D1AC8B2A9008FC5D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E335B74C1AC8B2A9008FC5D6 /* Images.xcassets */; };
 		E335B7501AC8B2A9008FC5D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E335B74E1AC8B2A9008FC5D6 /* LaunchScreen.xib */; };
 		E335B75C1AC8B2A9008FC5D6 /* CrinitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335B75B1AC8B2A9008FC5D6 /* CrinitaTests.swift */; };
+		E356E62B1AD4FEBC00F134CF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356E6291AD4FEBC00F134CF /* CustomCell.swift */; };
+		E356E62C1AD4FEBC00F134CF /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E356E62A1AD4FEBC00F134CF /* CustomCell.xib */; };
+		E356E62F1AD4FEF800F134CF /* Transient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356E62E1AD4FEF800F134CF /* Transient.swift */; };
+		E3950F8C1AD87F96008AFE3F /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3950F8B1AD87F96008AFE3F /* MapController.swift */; };
+		E3A519751AD40F39008868B3 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A519741AD40F39008868B3 /* SettingsController.swift */; };
+		E3A519781AD40F59008868B3 /* TransientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A519771AD40F59008868B3 /* TransientController.swift */; };
+		E3D6888D1AD9ED8100D53A81 /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D6888C1AD9ED8100D53A81 /* RLMSupport.swift */; };
+		E3EFFAE61AD0AE0D00DCB9C2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E3EFFAE51AD0AE0D00DCB9C2 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +38,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E335B73E1AC8B2A9008FC5D6 /* Crinita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crinita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFB3B0995295517E7DDDBC7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8C4F3C741F32897958795722 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A83FD2C7D16A1B0AB953D3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E30B0CBB1AD516260010685C /* BlackHole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackHole.swift; sourceTree = "<group>"; };
+		E30B0CBD1AD5169E0010685C /* FlareStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlareStar.swift; sourceTree = "<group>"; };
+		E335B73E1AC8B2A9008FC5D6 /* Mubu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mubu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E335B7421AC8B2A9008FC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E335B7431AC8B2A9008FC5D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E335B7451AC8B2A9008FC5D6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E335B7471AC8B2A9008FC5D6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E335B7451AC8B2A9008FC5D6 /* BlackHolesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHolesController.swift; sourceTree = "<group>"; };
+		E335B7471AC8B2A9008FC5D6 /* FlareStarsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareStarsController.swift; sourceTree = "<group>"; };
 		E335B74A1AC8B2A9008FC5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E335B74C1AC8B2A9008FC5D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E335B74F1AC8B2A9008FC5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E335B7551AC8B2A9008FC5D6 /* CrinitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrinitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E335B7551AC8B2A9008FC5D6 /* MubuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MubuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E335B75A1AC8B2A9008FC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E335B75B1AC8B2A9008FC5D6 /* CrinitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrinitaTests.swift; sourceTree = "<group>"; };
+		E356E6291AD4FEBC00F134CF /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		E356E62A1AD4FEBC00F134CF /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		E356E62E1AD4FEF800F134CF /* Transient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transient.swift; sourceTree = "<group>"; };
+		E3950F8B1AD87F96008AFE3F /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		E3A519741AD40F39008868B3 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		E3A519771AD40F59008868B3 /* TransientController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransientController.swift; sourceTree = "<group>"; };
+		E3D6888C1AD9ED8100D53A81 /* RLMSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMSupport.swift; sourceTree = "<group>"; };
+		E3EFFAE51AD0AE0D00DCB9C2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53ACA5E77CA3474215B1872 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,20 +83,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6446756E7563D79849833AF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A83FD2C7D16A1B0AB953D3 /* Pods.debug.xcconfig */,
+				7BFB3B0995295517E7DDDBC7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E335B7351AC8B2A9008FC5D6 = {
 			isa = PBXGroup;
 			children = (
+				E3EFFAE51AD0AE0D00DCB9C2 /* Podfile */,
 				E335B7401AC8B2A9008FC5D6 /* Crinita */,
 				E335B7581AC8B2A9008FC5D6 /* CrinitaTests */,
 				E335B73F1AC8B2A9008FC5D6 /* Products */,
+				6446756E7563D79849833AF1 /* Pods */,
+				E8D8366DBC3A8CA9EC7CAB13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		E335B73F1AC8B2A9008FC5D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E335B73E1AC8B2A9008FC5D6 /* Crinita.app */,
-				E335B7551AC8B2A9008FC5D6 /* CrinitaTests.xctest */,
+				E335B73E1AC8B2A9008FC5D6 /* Mubu.app */,
+				E335B7551AC8B2A9008FC5D6 /* MubuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +116,12 @@
 		E335B7401AC8B2A9008FC5D6 /* Crinita */ = {
 			isa = PBXGroup;
 			children = (
+				E3D6888C1AD9ED8100D53A81 /* RLMSupport.swift */,
+				E3A519761AD40F46008868B3 /* Controllers */,
+				E356E62D1AD4FED300F134CF /* Models */,
+				E356E6291AD4FEBC00F134CF /* CustomCell.swift */,
+				E356E62A1AD4FEBC00F134CF /* CustomCell.xib */,
 				E335B7431AC8B2A9008FC5D6 /* AppDelegate.swift */,
-				E335B7451AC8B2A9008FC5D6 /* FirstViewController.swift */,
-				E335B7471AC8B2A9008FC5D6 /* SecondViewController.swift */,
 				E335B7491AC8B2A9008FC5D6 /* Main.storyboard */,
 				E335B74C1AC8B2A9008FC5D6 /* Images.xcassets */,
 				E335B74E1AC8B2A9008FC5D6 /* LaunchScreen.xib */,
@@ -115,29 +155,62 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E356E62D1AD4FED300F134CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E356E62E1AD4FEF800F134CF /* Transient.swift */,
+				E30B0CBB1AD516260010685C /* BlackHole.swift */,
+				E30B0CBD1AD5169E0010685C /* FlareStar.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E3A519761AD40F46008868B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E335B7471AC8B2A9008FC5D6 /* FlareStarsController.swift */,
+				E335B7451AC8B2A9008FC5D6 /* BlackHolesController.swift */,
+				E3A519771AD40F59008868B3 /* TransientController.swift */,
+				E3950F8B1AD87F96008AFE3F /* MapController.swift */,
+				E3A519741AD40F39008868B3 /* SettingsController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E8D8366DBC3A8CA9EC7CAB13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C4F3C741F32897958795722 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E335B73D1AC8B2A9008FC5D6 /* Crinita */ = {
+		E335B73D1AC8B2A9008FC5D6 /* Mubu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E335B75F1AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "Crinita" */;
+			buildConfigurationList = E335B75F1AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "Mubu" */;
 			buildPhases = (
+				1C065788F76F182FBF55AA8E /* Check Pods Manifest.lock */,
 				E335B73A1AC8B2A9008FC5D6 /* Sources */,
 				E335B73B1AC8B2A9008FC5D6 /* Frameworks */,
 				E335B73C1AC8B2A9008FC5D6 /* Resources */,
+				3D670F391752D7FD9FFBBDF3 /* Embed Pods Frameworks */,
+				EA276A82296B89099DBE7DB9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Crinita;
+			name = Mubu;
 			productName = Crinita;
-			productReference = E335B73E1AC8B2A9008FC5D6 /* Crinita.app */;
+			productReference = E335B73E1AC8B2A9008FC5D6 /* Mubu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E335B7541AC8B2A9008FC5D6 /* CrinitaTests */ = {
+		E335B7541AC8B2A9008FC5D6 /* MubuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E335B7621AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "CrinitaTests" */;
+			buildConfigurationList = E335B7621AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "MubuTests" */;
 			buildPhases = (
 				E335B7511AC8B2A9008FC5D6 /* Sources */,
 				E335B7521AC8B2A9008FC5D6 /* Frameworks */,
@@ -148,9 +221,9 @@
 			dependencies = (
 				E335B7571AC8B2A9008FC5D6 /* PBXTargetDependency */,
 			);
-			name = CrinitaTests;
+			name = MubuTests;
 			productName = CrinitaTests;
-			productReference = E335B7551AC8B2A9008FC5D6 /* CrinitaTests.xctest */;
+			productReference = E335B7551AC8B2A9008FC5D6 /* MubuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +244,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E335B7391AC8B2A9008FC5D6 /* Build configuration list for PBXProject "Crinita" */;
+			buildConfigurationList = E335B7391AC8B2A9008FC5D6 /* Build configuration list for PBXProject "Mubu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +257,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E335B73D1AC8B2A9008FC5D6 /* Crinita */,
-				E335B7541AC8B2A9008FC5D6 /* CrinitaTests */,
+				E335B73D1AC8B2A9008FC5D6 /* Mubu */,
+				E335B7541AC8B2A9008FC5D6 /* MubuTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E335B74B1AC8B2A9008FC5D6 /* Main.storyboard in Resources */,
+				E356E62C1AD4FEBC00F134CF /* CustomCell.xib in Resources */,
 				E335B7501AC8B2A9008FC5D6 /* LaunchScreen.xib in Resources */,
+				E3EFFAE61AD0AE0D00DCB9C2 /* Podfile in Resources */,
 				E335B74D1AC8B2A9008FC5D6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,14 +285,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C065788F76F182FBF55AA8E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D670F391752D7FD9FFBBDF3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA276A82296B89099DBE7DB9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E335B73A1AC8B2A9008FC5D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E335B7481AC8B2A9008FC5D6 /* SecondViewController.swift in Sources */,
+				E30B0CBE1AD5169E0010685C /* FlareStar.swift in Sources */,
+				E3A519781AD40F59008868B3 /* TransientController.swift in Sources */,
+				E356E62F1AD4FEF800F134CF /* Transient.swift in Sources */,
+				E335B7481AC8B2A9008FC5D6 /* FlareStarsController.swift in Sources */,
+				E3A519751AD40F39008868B3 /* SettingsController.swift in Sources */,
 				E335B7441AC8B2A9008FC5D6 /* AppDelegate.swift in Sources */,
-				E335B7461AC8B2A9008FC5D6 /* FirstViewController.swift in Sources */,
+				E3D6888D1AD9ED8100D53A81 /* RLMSupport.swift in Sources */,
+				E356E62B1AD4FEBC00F134CF /* CustomCell.swift in Sources */,
+				E335B7461AC8B2A9008FC5D6 /* BlackHolesController.swift in Sources */,
+				E3950F8C1AD87F96008AFE3F /* MapController.swift in Sources */,
+				E30B0CBC1AD516260010685C /* BlackHole.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +365,7 @@
 /* Begin PBXTargetDependency section */
 		E335B7571AC8B2A9008FC5D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E335B73D1AC8B2A9008FC5D6 /* Crinita */;
+			target = E335B73D1AC8B2A9008FC5D6 /* Mubu */;
 			targetProxy = E335B7561AC8B2A9008FC5D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -338,21 +469,25 @@
 		};
 		E335B7601AC8B2A9008FC5D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A83FD2C7D16A1B0AB953D3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Crinita/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mubu;
 			};
 			name = Debug;
 		};
 		E335B7611AC8B2A9008FC5D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFB3B0995295517E7DDDBC7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Crinita/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mubu;
 			};
 			name = Release;
 		};
@@ -370,7 +505,7 @@
 				);
 				INFOPLIST_FILE = CrinitaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MubuTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crinita.app/Crinita";
 			};
 			name = Debug;
@@ -385,7 +520,7 @@
 				);
 				INFOPLIST_FILE = CrinitaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MubuTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crinita.app/Crinita";
 			};
 			name = Release;
@@ -393,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E335B7391AC8B2A9008FC5D6 /* Build configuration list for PBXProject "Crinita" */ = {
+		E335B7391AC8B2A9008FC5D6 /* Build configuration list for PBXProject "Mubu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E335B75D1AC8B2A9008FC5D6 /* Debug */,
@@ -402,21 +537,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E335B75F1AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "Crinita" */ = {
+		E335B75F1AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "Mubu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E335B7601AC8B2A9008FC5D6 /* Debug */,
 				E335B7611AC8B2A9008FC5D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E335B7621AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "CrinitaTests" */ = {
+		E335B7621AC8B2A9008FC5D6 /* Build configuration list for PBXNativeTarget "MubuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E335B7631AC8B2A9008FC5D6 /* Debug */,
 				E335B7641AC8B2A9008FC5D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Realm
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+
+//        RLMRealm.setSchemaVersion(7, forRealmAtPath: RLMRealm.defaultRealmPath(),
+//            withMigrationBlock: { migration, oldSchemaVersion in
+////                if oldSchemaVersion < 7 {
+//                    // The enumerateObjects:block: method iterates
+//                    // over every 'Person' object stored in the Realm file
+//                    migration.enumerateObjects(Transient.className()) { oldObject, newObject in
+//                        // combine name fields into a single field
+//                        let raDegs = oldObject["raDegs"] as String
+//                        let decDegs = oldObject["decDegs"] as String
+//                    }
+////                }
+//        })
         return true
     }
 
